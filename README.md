@@ -20,8 +20,8 @@ A Python tool that automatically extracts hierarchical document outlines from PD
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/pdf-outline-extractor.git
-cd pdf-outline-extractor
+git clone https://github.com/KamalKumarMachireddy/PDF-Outline-Extractor-Round-1A.git
+cd PDF-Outline-Extractor-Round-1A
 ```
 
 2. Install dependencies:
