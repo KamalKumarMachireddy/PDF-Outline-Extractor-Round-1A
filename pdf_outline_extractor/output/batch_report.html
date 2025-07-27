@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Outline Extraction Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        .summary { background-color: #f0f0f0; padding: 20px; border-radius: 5px; margin-bottom: 30px; }
+        .pdf-result { border: 1px solid #ddd; margin: 20px 0; padding: 20px; border-radius: 5px; }
+        .success { border-left: 5px solid #4CAF50; }
+        .error { border-left: 5px solid #f44336; }
+        .outline { margin-left: 20px; }
+        .heading { margin: 5px 0; }
+        .h1 { font-weight: bold; color: #333; }
+        .h2 { font-weight: bold; color: #666; margin-left: 20px; }
+        .h3 { color: #999; margin-left: 40px; }
+        table { border-collapse: collapse; width: 100%; margin: 10px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .no-data { color: #888; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>PDF Outline Extraction Report</h1>
+
+    <div class="summary">
+        <h2>Summary</h2>
+        <table>
+            <tr><th>Metric</th><th>Value</th></tr>
+            <tr><td>Total Files Processed</td><td>1</td></tr>
+            <tr><td>Successful Extractions</td><td>1</td></tr>
+            <tr><td>Failed Extractions</td><td>0</td></tr>
+            <tr><td>Total Headings Found</td><td>9</td></tr>
+            <tr><td>Average Headings per Document</td><td>9.0</td></tr>
+            <tr><td>Processing Date</td><td>2025-07-27 20:20:27</td></tr>
+        </table>
+    </div>
+
+    <h2>Individual Results</h2>
+
+    <div class="pdf-result success">
+        <h3>test.pdf</h3>
+        <p><strong>Title:</strong> Python</p>
+        <p><strong>Status:</strong> Success</p>
+        <p><strong>File Size:</strong> 116,605 bytes</p>
+        <p><strong>Processing Time:</strong> 0.04s</p>
+        <p><strong>Headings Found:</strong> 9</p>
+
+        
+
+        <div class="outline"><h4>Outline:</h4>
+<div class="heading h1">H1 - Page 1: 1. Introduction</div>
+<div class="heading h1">H1 - Page 1: 2. Features</div>
+<div class="heading h2">H2 - Page 1: Extract hierarchical outline structures</div>
+<div class="heading h2">H2 - Page 1: Export outline data to JSON or plain text</div>
+<div class="heading h1">H1 - Page 1: 3. Use Cases</div>
+<div class="heading h1">H1 - Page 1: 4. Technologies Used</div>
+<div class="heading h2">H2 - Page 1: Python</div>
+<div class="heading h2">H2 - Page 1: JSON for structured output</div>
+<div class="heading h1">H1 - Page 1: 5. Conclusion</div>
+</div></div>
+
+</body>
+</html>

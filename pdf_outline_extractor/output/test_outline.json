@@ -1,0 +1,57 @@
+{
+  "title": "Python",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "1. Introduction",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "2. Features",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Extract hierarchical outline structures",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Export outline data to JSON or plain text",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "3. Use Cases",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "4. Technologies Used",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Python",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "JSON for structured output",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "5. Conclusion",
+      "page": 1
+    }
+  ],
+  "method": "structure_analysis",
+  "metadata": {
+    "filename": "test.pdf",
+    "file_size": 116605,
+    "processing_time": 0.04,
+    "success": true
+  }
+}
